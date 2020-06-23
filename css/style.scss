@@ -214,7 +214,7 @@ nav {
       display: block;
    }
 
-   li {
+   li:not("log_reg") {
       padding: 20px 0;
    }
 
