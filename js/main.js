@@ -151,7 +151,7 @@ const app = () => {
    el.shortenLinkParent.addEventListener("click", (e) => {
 
       if (e.target.classList.contains("copy")) {
-         let copy = e.target.parentElement.previousElementSibling;
+         let copy = e.target.previousElementSibling;
 
          document.querySelectorAll(".copy").forEach(c => {
             c.classList.remove("copied");
